@@ -5,7 +5,7 @@
  * @author Kong Yang
  * @version 2.1.18
  */
-public abstract class Vehicle
+public abstract class Vehicle implements BasicCar
 {
     int seats;
     double speed;
@@ -17,7 +17,7 @@ public abstract class Vehicle
         this.name = name;
     }
 
-    public void moveFroward(){
+    public void moveForward(){
         System.out.println("You move forward");   
     }
     

@@ -4,5 +4,5 @@ comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vehicle\ here.\r\n\r\n\ @a
 comment1.params=seats\ speed\ name
 comment1.target=Vehicle(int,\ double,\ java.lang.String)
 comment2.params=
-comment2.target=void\ moveFroward()
+comment2.target=void\ moveForward()
 numComments=3
