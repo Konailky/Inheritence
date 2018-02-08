@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Characters
+comment1.params=name\ stats
+comment1.target=Characters(java.lang.String,\ java.util.ArrayList)
+numComments=2

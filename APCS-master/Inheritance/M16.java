@@ -5,14 +5,12 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class M16 extends Ranged implements WeaponInterface
+import java.lang.Math;
+public class M16 extends Ranged 
 {
-   public M16(int damage, boolean parry){
-     super(damage, parry);
-     
+    public M16(int damage, boolean parry){
+        super(damage, parry);
     }
-    
-    public attack(){
-        
-    }
+
+ 
 }

@@ -14,4 +14,16 @@ public abstract class Ranged extends Weapons
         this.damage = damage;
         this.parry = parry;
     }
+    
+       public int attack(){
+        return damage;
+    }
+    
+    public boolean parry(){
+        double ram = (int) Math.random() * 10;
+        if (ram >= 2){
+            return true;
+        }
+        return false;
+    }
 }
