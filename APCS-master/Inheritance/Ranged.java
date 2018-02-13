@@ -21,7 +21,7 @@ public abstract class Ranged extends Weapons
     
     public boolean parry(){
         double ram = (int) Math.random() * 10;
-        if (ram >= 2){
+        if (ram <= 2){
             return true;
         }
         return false;

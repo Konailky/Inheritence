@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=M16
+comment0.target=Gun
 comment1.params=damage\ parry
-comment1.target=M16(int,\ boolean)
+comment1.target=Gun(int,\ boolean)
 numComments=2

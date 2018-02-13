@@ -7,15 +7,5 @@
  */
 public abstract class Cloth extends Armor
 {
-    int defense;
-    public Cloth(int defense){
-        this.defense = defense;
-    }
 
-    public boolean Blocked(){
-        if( defense >= damage){
-            return true;
-        }
-        return false;
-    }
 }
