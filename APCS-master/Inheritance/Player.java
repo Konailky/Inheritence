@@ -5,10 +5,19 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-
-public abstract class Player extends Characters
+import java.util.Scanner;
+public  class Player extends Characters
 {
-   public  Player(){
-     
+    int name;
+    int hp;
+
+    public Player(int name, int hp){
+        this.name = name;
+        this.hp = hp;
+    }
+
+    public static void start(){
+       // Scanner scaner = new Scanner();
+        System.out.println("Enter your name: ");
     }
 }

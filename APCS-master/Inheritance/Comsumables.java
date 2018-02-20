@@ -7,5 +7,13 @@
  */
 public abstract class Comsumables extends Item
 {
-
+    int restoreHp;
+    
+    public Comsumables(int restoreHp){
+        this.restoreHp = restoreHp;
+    }
+    
+    public int checkHp(){
+       return restoreHp;
+    }
 }

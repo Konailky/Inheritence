@@ -2,4 +2,6 @@
 comment0.target=Gun
 comment1.params=damage\ parry
 comment1.target=Gun(int,\ boolean)
-numComments=2
+comment2.params=
+comment2.target=void\ Attack()
+numComments=3

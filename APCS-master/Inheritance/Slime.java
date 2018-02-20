@@ -11,5 +11,12 @@ public class Slime extends Enemy
         super(Edamage, Ehp, Edefense);
     }
     
-    
+        public void defend(int damage){
+        if (damage > Edefense){
+            System.out.println("The enemy shielded " +  Edefense + " damage so you only dealt "+ (damage - Edefense) + " to its hp.");}
+        else if(damage == Edefense){
+            System.out.println("The enemy was shieled from all your damage");}
+         else{
+             System.out.println("You dealt " + damage + " to its hp.");}
+    }
 }

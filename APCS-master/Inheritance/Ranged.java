@@ -9,10 +9,12 @@ public abstract class Ranged extends Weapons
 {
     int damage;
     boolean parry; 
+   
     
     public Ranged(int damage, boolean parry){
         this.damage = damage;
         this.parry = parry;
+  
     }
     
        public int attack(){
@@ -26,4 +28,5 @@ public abstract class Ranged extends Weapons
         }
         return false;
     }
+ 
 }

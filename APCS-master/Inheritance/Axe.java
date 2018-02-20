@@ -12,5 +12,8 @@ public class Axe extends Melee
         super(damage, parry);
     }
 
-
+    public void Attack(){
+        System.out.println("You dealt 15 damage");
+    }
+    
 }

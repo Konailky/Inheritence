@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Sword
-comment1.params=damage\ parry
-comment1.target=Sword(int,\ boolean)
-numComments=2
+comment1.params=damage\ parry\ crit\ critChance
+comment1.target=Sword(int,\ boolean,\ boolean,\ int)
+comment2.params=
+comment2.target=void\ Attack()
+numComments=3

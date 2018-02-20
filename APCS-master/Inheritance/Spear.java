@@ -13,5 +13,8 @@ public class Spear extends Melee
         super(damage, parry);
     }
 
+    public void Attack(){
+        System.out.println("You dealt 8 damage.");
+    }
 
 }

@@ -12,5 +12,7 @@ public class Gun extends Ranged
         super(damage, parry);
     }
 
- 
+ public void Attack(){
+     System.out.println("You dealt  5 damage");
+    }
 }

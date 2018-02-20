@@ -10,4 +10,10 @@ public class Bow extends Ranged
    public Bow(int damage, boolean parry){
        super(damage, parry);
     }
-}
+    
+    public void Attack(){
+        System.out.println("You dealt 4 damage.");
+            
+        }
+    }
+

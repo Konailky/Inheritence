@@ -8,5 +8,7 @@
 public class Dragon extends Vehicle
 
 {
-   
+   public Dragon(int speed){
+       super(speed);
+    }
 }

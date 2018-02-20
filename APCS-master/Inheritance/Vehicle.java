@@ -7,5 +7,9 @@
  */
 public abstract class Vehicle extends Item
 {
-
+    int speed;
+    
+    public Vehicle(int speed){
+        this.speed = speed;
+    }
 }
