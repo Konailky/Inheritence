@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LaserGun
+comment1.params=damage\ parry
+comment1.target=LaserGun(int,\ boolean)
+comment2.params=
+comment2.target=void\ Attack()
+numComments=3

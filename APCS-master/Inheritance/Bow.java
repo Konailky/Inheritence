@@ -7,13 +7,16 @@
  */
 public class Bow extends Ranged
 {
-   public Bow(int damage, boolean parry){
-       super(damage, parry);
+    public Bow(int damage, boolean parry){
+        super(damage, parry);
     }
-    
+
     public void Attack(){
-        System.out.println("You dealt 4 damage.");
-            
+        if( Bow.crit(10)){
+            System.out.println("You dealt " +  4 * 2 + " damage.");
         }
+        else{
+            System.out.println("You dealt 4 damage");} 
     }
+}
 

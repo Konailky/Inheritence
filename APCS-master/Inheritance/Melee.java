@@ -30,7 +30,7 @@ public abstract class Melee extends Weapons
         return false;
     }
     
-    public boolean crit(int critChance){
+    public  boolean crit(int critChance){
         double ran = (int) Math.random() * critChance;
         if ( ran > critChance -5){
          return true;   

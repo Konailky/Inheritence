@@ -8,12 +8,16 @@
 import java.lang.Math;
 public class Axe extends Melee 
 {
-    public Axe(int damage, boolean parry){
-        super(damage, parry);
+    public Axe(int damage, boolean parry, boolean crit){
+        super(damage, parry, crit);
     }
 
     public void Attack(){
-        System.out.println("You dealt 15 damage");
+      if( Axe.crit(10)){
+            System.out.println("You dealt " +  15 * 2 + " damage.");
+        }
+        else{
+            System.out.println("You dealt 10 damage");}
     }
     
 }

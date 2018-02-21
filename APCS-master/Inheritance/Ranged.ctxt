@@ -1,10 +1,12 @@
 #BlueJ class context
 comment0.target=Ranged
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ranged\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=damage\ parry
-comment1.target=Ranged(int,\ boolean)
+comment1.params=damage\ parry\ crit
+comment1.target=Ranged(int,\ boolean,\ boolean)
 comment2.params=
 comment2.target=int\ attack()
 comment3.params=
 comment3.target=boolean\ parry()
-numComments=4
+comment4.params=critChance
+comment4.target=boolean\ crit(int)
+numComments=5

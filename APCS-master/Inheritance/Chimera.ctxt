@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Chimera
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Minotaur\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=Edamage\ Ehp\ Edefense
+comment1.target=Chimera(int,\ int,\ int)
+comment2.params=damage
+comment2.target=void\ defend(int)
+numComments=3
