@@ -12,10 +12,6 @@ public class Slingshot extends Ranged
     }
     
     public void Attack(){
-    if( Slingshot.crit(10)){
-            System.out.println("You dealt " +  1 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 1 damage");}
+   
     }
 }

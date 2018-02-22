@@ -13,10 +13,6 @@ public class Gun extends Ranged
     }
 
  public void Attack(){
-     if( Gun.crit(10)){
-            System.out.println("You dealt " +  5 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 5 damage");}
+   
     }
 }

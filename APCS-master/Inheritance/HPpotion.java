@@ -9,9 +9,8 @@ public class HPpotion extends Comsumables
 {
    public HPpotion(int restoreHp){
      super(restoreHp);  
+     restoreHp = 20;
     }
     
-    public void eat(){
-       System.out.println("You regained 20 hp.");
-    }
+
 }

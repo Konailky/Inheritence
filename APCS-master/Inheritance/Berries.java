@@ -9,9 +9,8 @@ public class Berries extends Comsumables
 {
    public Berries(int restoreHp){
        super(restoreHp);
+       restoreHp = 5;
     }
     
-    public void eat(){
-     System.out.println("You regained 5 hp.");   
-    }
+ 
 }

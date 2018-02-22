@@ -28,6 +28,6 @@ public abstract class Enemy extends Characters
     }
     
     public void takeDamage(int damage){
-        
+        Ehp -= damage;
     }
 }

@@ -13,10 +13,6 @@ public class LaserGun extends Ranged
     }
 
  public void Attack(){
-     if( LaserGun.crit(10)){
-            System.out.println("You dealt " +  500 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 500 damage");}
+     
     }
 }

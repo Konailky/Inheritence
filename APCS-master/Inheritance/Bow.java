@@ -12,11 +12,7 @@ public class Bow extends Ranged
     }
 
     public void Attack(){
-        if( Bow.crit(10)){
-            System.out.println("You dealt " +  4 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 4 damage");} 
+        
     }
 }
 

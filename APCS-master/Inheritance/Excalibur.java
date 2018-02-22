@@ -9,17 +9,13 @@ import java.lang.Math;
 public class Excalibur extends Melee 
 {
 
-    public Excalibur(int damage, boolean parry,boolean crit, int critChance){
-        super(damage, parry, crit);
+    public Excalibur(int damage, boolean parry){
+        super(damage, parry);
   
     }
 
     public void Attack(){
-      if( Excalibur.crit(10)){
-            System.out.println("You dealt " +  900 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 900 damage");}
+  
     }
 }
 

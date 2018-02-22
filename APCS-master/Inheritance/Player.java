@@ -14,10 +14,12 @@ public  class Player extends Characters
     public Player(int name, int hp){
         this.name = name;
         this.hp = hp;
+        hp = 300;
     }
 
-    public static void start(){
-       // Scanner scaner = new Scanner();
-        System.out.println("Enter your name: ");
+    public void eat(int food){
+        hp += food;
+        System.out.println("You now have " + hp + " hp.");
+        
     }
 }

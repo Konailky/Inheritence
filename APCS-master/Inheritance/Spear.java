@@ -9,16 +9,12 @@ import java.lang.Math;
 public class Spear extends Melee 
 {
 
-    public Spear(int damage, boolean parry, boolean crit){
-        super(damage, parry, crit);
+    public Spear(int damage, boolean parry){
+        super(damage, parry);
     }
 
     public void Attack(){
-        if( Spear.crit(10)){
-            System.out.println("You dealt " +  8 * 2 + " damage.");
-        }
-        else{
-            System.out.println("You dealt 10 damage");}
+
     }
 
 }

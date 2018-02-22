@@ -4,5 +4,5 @@ comment0.text=\r\n\ Abstract\ class\ Comsumables\ -\ write\ a\ description\ of\ 
 comment1.params=restoreHp
 comment1.target=Comsumables(int)
 comment2.params=
-comment2.target=int\ checkHp()
+comment2.target=void\ food()
 numComments=3

@@ -9,9 +9,8 @@ public class Steak extends Comsumables
 {
     public Steak(int restoreHp){
         super(restoreHp);
+        restoreHp = 25;
     }
     
-    public void eat(){
-     System.out.println("You regained 25 hp.");   
-    }
+
 }

@@ -9,9 +9,8 @@ public class Cookie extends Comsumables
 {
    public Cookie(int restoreHp){
        super(restoreHp);
+       restoreHp = 15;
     }
     
-    public void eat(){
-     System.out.println("You regained 15 hp.");   
-    }
+ 
 }

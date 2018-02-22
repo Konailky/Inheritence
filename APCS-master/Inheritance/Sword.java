@@ -8,21 +8,11 @@
 import java.lang.Math;
 public class Sword extends Melee 
 {
-  
+    
 
-    public Sword(int damage, boolean parry,boolean crit){
-        super(damage, parry, crit);
-       
-    }
-
-    public void Attack(){
-        if( Sword.crit(10)){
-            System.out.println("You dealt " +  10 * 2 + " damage.");
+       public Sword(int damage, boolean parry){
+         super(damage, parry);  
         }
-        else{
-            System.out.println("You dealt 10 damage");}
-            
 
-    }
 }
 

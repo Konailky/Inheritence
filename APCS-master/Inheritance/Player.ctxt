@@ -2,6 +2,6 @@
 comment0.target=Player
 comment1.params=name\ hp
 comment1.target=Player(int,\ int)
-comment2.params=
-comment2.target=void\ start()
+comment2.params=food
+comment2.target=void\ eat(int)
 numComments=3
