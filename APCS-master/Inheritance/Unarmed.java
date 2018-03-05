@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Axe here.
+ * Write a description of class Unarmed here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-import java.lang.Math;
-public class Axe extends Melee 
+public class Unarmed extends Melee
 {
-    public Axe(int damage, int parrychance){
-        super(damage, parrychance);
-        damage = 15;
-        parrychance = 15;
+    public Unarmed(int damage, int parrychance){
+     super(damage, parrychance);
+     damage = 1;
+     parrychance = 2;
     }
-
+    
+   
     
     public boolean parry(int parrychance){
             double ram = (int) Math.random() * parrychance;

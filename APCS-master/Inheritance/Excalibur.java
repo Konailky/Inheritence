@@ -9,13 +9,20 @@ import java.lang.Math;
 public class Excalibur extends Melee 
 {
 
-    public Excalibur(int damage, boolean parry){
-        super(damage, parry);
-  
+    public Excalibur(int damage, int parrychance){
+        super(damage, parrychance);
+        damage = 1000;
+        parrychance = 1000;
     }
-
-    public void Attack(){
+    
   
+
+   public boolean parry(int parrychance){
+         double ram = (int) Math.random() * parrychance;
+        if(ram >= parrychance-2){
+            return true;
+        }
+        return false;  
     }
 }
 

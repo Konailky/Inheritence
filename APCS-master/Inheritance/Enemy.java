@@ -24,7 +24,17 @@ public abstract class Enemy extends Characters
     }
     
     public void Edefend(int damage){
-        
+        if( damage == Edefense){
+            damage = 0;
+            System.out.println("The monster has been shielded from all your damage.");}
+        else if( damage > Edefense ){ 
+            damage -= Edefense;
+            System.out.println("The monster was not able to withstand your might and you dealt " + (damage-=Edefense) + " points of damage to its life.");}
+        else{
+            Edefense -= damage;
+            System.out.println("You are too weak and was only able to shred part of the monster's armors.");}
+            
+        takeDamage(damage);
     }
     
     public void takeDamage(int damage){

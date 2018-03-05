@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Melee
-comment1.params=damage\ parry
-comment1.target=Melee(int,\ boolean)
+comment1.params=damage\ parrychance
+comment1.target=Melee(int,\ int)
 numComments=2

@@ -8,10 +8,16 @@
 import java.lang.Math;
 public abstract class Melee extends Weapons
 {
-    
-    public Melee(int damage, boolean parry){
-     super(damage,parry);   
-    }
+
     
 
+    public Melee(int damage, int parrychance){
+        super(damage, parrychance);
+        
+        
+    }
+
+    
+
+     
 }

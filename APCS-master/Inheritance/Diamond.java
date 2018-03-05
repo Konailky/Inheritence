@@ -7,14 +7,16 @@
  */
 public class Diamond extends Armor
 {
-    public Diamond(boolean armor){
-        super(armor);
+    public Diamond(boolean armor, int def){
+        super(armor, def);
+        armor = true;
+        def = 500;
     }
     
     public void armor(int Edamage){
-        if(Edamage == 200){
+        if(Edamage == def){
         System.out.println("Your armor blocked all the damage.");}
-        else if ( Edamage > 200){
+        else if ( Edamage > def){
         System.out.println("Your armor blocked part of the damage.");}
         else{
         System.out.println("Your armor did not block any damage.");}

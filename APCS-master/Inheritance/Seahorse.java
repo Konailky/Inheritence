@@ -10,5 +10,6 @@ public class Seahorse extends Vehicle
 {
    public Seahorse(int speed){
        super(speed);
+       speed = 100;
     }
 }

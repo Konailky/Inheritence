@@ -7,14 +7,16 @@
  */
 public class Gold extends Armor
 {
-    public Gold(boolean armor){
-        super(armor);
+    public Gold(boolean armor, int def){
+        super(armor, def);
+        armor = true;
+        def = 200;
     }
     
     public void armor(int Edamage){
-        if(Edamage == 20){
+        if(Edamage == def){
         System.out.println("Your armor blocked all the damage.");}
-        else if ( Edamage > 20){
+        else if ( Edamage > def){
         System.out.println("Your armor blocked part of the damage.");}
         else{
         System.out.println("Your armor did not block any damage.");}

@@ -13,6 +13,10 @@ public abstract class Comsumables extends Item
         this.restoreHp = restoreHp;
     }
     
+    public int getHp( ){
+        return restoreHp;
+    }
+    
     public void food(){
         //player.eat(restoreHp);
     }

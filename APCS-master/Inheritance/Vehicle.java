@@ -12,4 +12,8 @@ public abstract class Vehicle extends Item
     public Vehicle(int speed){
         this.speed = speed;
     }
+    
+    public int getSpeed(){
+        return speed;
+    }
 }

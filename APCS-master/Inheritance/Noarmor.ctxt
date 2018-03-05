@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Noarmor
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ NoArmor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=armor
-comment1.target=Noarmor(boolean)
+comment1.params=armor\ def
+comment1.target=Noarmor(boolean,\ int)
 comment2.params=Edamage
 comment2.target=void\ armor(int)
 numComments=3

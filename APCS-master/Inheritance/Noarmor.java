@@ -7,14 +7,16 @@
  */
 public class Noarmor extends Armor
 {
-    public Noarmor (boolean armor){
-        super(armor);   
+    public Noarmor (boolean armor, int def){
+        super(armor, def);  
+        armor = false;
+        def = 0;
     }
 
     public void armor(int Edamage){
-        if(Edamage == 0){
+        if(Edamage == def){
             System.out.println("Your armor blocked all the damage.");}
-        else if ( Edamage > 0){
+        else if ( Edamage > def){
             System.out.println("Your armor blocked part of the damage.");}
         else{
             System.out.println("Your armor did not block any damage.");}

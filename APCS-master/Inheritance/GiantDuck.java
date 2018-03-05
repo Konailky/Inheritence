@@ -9,5 +9,6 @@ public class GiantDuck extends Vehicle
 {
     public GiantDuck(int speed){
      super(speed);   
+     speed = 500;
     }
 }

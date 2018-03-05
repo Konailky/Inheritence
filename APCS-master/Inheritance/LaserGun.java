@@ -6,13 +6,18 @@
  * @version (a version number or a date)
  */
 import java.lang.Math;
-public class LaserGun extends Ranged 
+public  class LaserGun extends Ranged 
 {
-    public LaserGun(int damage, boolean parry){
-        super(damage, parry);
-    }
 
- public void Attack(){
-     
+    public LaserGun(int damage, int parrychance){
+        super(damage, parrychance);
+    }
+    
+    public boolean parry(int parrychance){
+            double ram = (int) Math.random() * parrychance;
+        if(ram >= parrychance-2){
+            return true;
+        }
+        return false;
     }
 }

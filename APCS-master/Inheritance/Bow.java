@@ -7,12 +7,20 @@
  */
 public class Bow extends Ranged
 {
-    public Bow(int damage, boolean parry){
-        super(damage, parry);
-    }
-
-    public void Attack(){
+    public Bow(int damage, int parrychance){
+        super(damage, parrychance);
         
     }
-}
+
+
+    
+    public boolean parry(int parrychance){
+         double ram = (int) Math.random() * parrychance;
+        if(ram >= parrychance-2){
+            return true;
+        }
+        return false;   
+    }
+ }
+
 

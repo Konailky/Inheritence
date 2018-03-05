@@ -8,9 +8,17 @@
 public abstract class Ranged extends Weapons
 {
 
-  public Ranged(int damage, boolean parry){
-     super(damage, parry); 
+   
+   
+
+    public Ranged(int damage, int parrychance){
+        super(damage, parrychance);
+       
+       
     }
- 
- 
+
+   
+
+   
+
 }

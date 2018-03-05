@@ -9,8 +9,14 @@ import java.lang.Math;
 public abstract class Armor extends Item implements DefenseCommands
 {
     boolean armor;
-    public Armor(boolean armor){
+    int def;
+    public Armor(boolean armor, int def){
         this.armor = armor;
+        this.def = def;
+    }
+    
+    public int getDef(){
+     return def;
     }
 
     public boolean blocked(){

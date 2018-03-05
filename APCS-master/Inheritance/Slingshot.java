@@ -7,11 +7,19 @@
  */
 public class Slingshot extends Ranged
 {
-   public Slingshot(int damage, boolean parry){
-       super(damage, parry);
+   public Slingshot(int damage, int parrychance){
+       super(damage, parrychance);
+       damage = 2;
+       parrychance = 2;
     }
     
-    public void Attack(){
-   
+  
+    
+    public boolean parry(int parrychance){
+         double ram = (int) Math.random() * parrychance;
+        if(ram >= parrychance-2){
+            return true;
+        }
+        return false;   
     }
 }

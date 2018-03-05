@@ -7,24 +7,32 @@
  */
 public abstract class Weapons extends Item implements WeaponInterface
 {
+    int parrychance;
     int damage;
-    boolean parry;
-    
-    public Weapons(int damage, boolean parry){
+
+    public Weapons(int damage, int parrychance){
         this.damage = damage;
-        this.parry = parry;
+        this.parrychance = parrychance;   
+
     }
-    
-      public int attack(Enemy target){
+
+    public int attack(){
+        return damage; 
+    }
+     
+    public void Attack(Enemy target){
+        Edefend(damage);
+    }
+
+    public int getDamage(){
         return damage;
     }
-    
-    public boolean parry(int parryChance){
-        double ram = (int) Math.random() * parryChance;
-        if(ram >= parryChance-5){
+
+    public boolean parry(){
+        double ram = (int) Math.random() * parrychance;
+        if(ram >= parrychance-2){
             return true;
         }
         return false;
     }
-    
 }
