@@ -9,6 +9,8 @@ public class NoMount extends Vehicle
 {
     public NoMount(int speed){
         super(speed);
-        speed = 0;
+    }
+    public NoMount(){
+     this(0);   
     }
 }

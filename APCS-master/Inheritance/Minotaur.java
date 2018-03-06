@@ -9,9 +9,10 @@ public class Minotaur extends Enemy
 {
     public Minotaur ( int Edamage, int Ehp, int Edefense){
         super(Edamage, Ehp, Edefense);
-        Edamage = 25;
-        Ehp = 250;
-        Edefense = 25;
+ 
+    }
+    public Minotaur(){
+     this(50,250,50);   
     }
 
     public void defend(int damage){

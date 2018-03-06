@@ -12,6 +12,9 @@ public class Noarmor extends Armor
         armor = false;
         def = 0;
     }
+    public Noarmor(){
+     this(false, 0);   
+    }
 
     public void armor(int Edamage){
         if(Edamage == def){

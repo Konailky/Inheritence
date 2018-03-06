@@ -12,6 +12,9 @@ public  class LaserGun extends Ranged
     public LaserGun(int damage, int parrychance){
         super(damage, parrychance);
     }
+    public LaserGun(){
+     this(200, 200);   
+    }
     
     public boolean parry(int parrychance){
             double ram = (int) Math.random() * parrychance;

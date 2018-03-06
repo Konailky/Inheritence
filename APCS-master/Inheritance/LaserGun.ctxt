@@ -2,6 +2,8 @@
 comment0.target=LaserGun
 comment1.params=damage\ parrychance
 comment1.target=LaserGun(int,\ int)
-comment2.params=parrychance
-comment2.target=boolean\ parry(int)
-numComments=3
+comment2.params=
+comment2.target=LaserGun()
+comment3.params=parrychance
+comment3.target=boolean\ parry(int)
+numComments=4

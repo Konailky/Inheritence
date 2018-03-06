@@ -10,6 +10,9 @@ public class Slime extends Enemy
     public Slime( int Edamage, int Ehp, int Edefense){
         super(Edamage, Ehp, Edefense);
     }
+    public Slime(){
+     this(300,100, 300);   
+    }
     
         public void defend(int damage){
    if (damage > Edefense){

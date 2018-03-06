@@ -9,7 +9,10 @@ public class Cookie extends Comsumables
 {
    public Cookie(int restoreHp){
        super(restoreHp);
-       restoreHp = 15;
+      
+    }
+    public Cookie(){
+        this(15);
     }
     
  

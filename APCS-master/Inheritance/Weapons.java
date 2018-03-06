@@ -21,7 +21,7 @@ public abstract class Weapons extends Item implements WeaponInterface
     }
      
     public void Attack(Enemy target){
-        Edefend(damage);
+        target.Edefend(damage);
     }
 
     public int getDamage(){

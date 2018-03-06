@@ -9,9 +9,10 @@ public class Hydra extends Enemy
 {
     public Hydra ( int Edamage, int Ehp, int Edefense){
         super(Edamage, Ehp, Edefense);
-        Edamage = 80;
-        Ehp= 1000;
-        Edefense = 80;
+   
+    }
+    public Hydra(){
+     this(80,1000,80);   
     }
 
     public void defend(int damage){

@@ -9,7 +9,9 @@ public class Rice extends Comsumables
 {
     public Rice( int restoreHp){
         super(restoreHp);
-        restoreHp = 100;
+    }
+    public Rice(){
+        this(100);
     }
     
  

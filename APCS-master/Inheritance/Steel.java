@@ -9,8 +9,9 @@ public  class Steel extends Armor
 {
     public Steel(boolean armor, int def){
         super(armor, def); 
-        armor = true;
-        def = 50;
+    }
+    public Steel(){
+     this(true, 50);   
     }
 
     public void armor(int Edamage){

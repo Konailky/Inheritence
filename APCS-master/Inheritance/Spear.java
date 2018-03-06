@@ -10,8 +10,9 @@ public class Spear extends Melee
 {
      public Spear(int damage, int parrychance){
         super(damage, parrychance); 
-        damage = 20;
-        parrychance = 20;
+    }
+    public Spear(){
+     this(20,20);   
     }
 
   

@@ -9,8 +9,10 @@ public class HPpotion extends Comsumables
 {
    public HPpotion(int restoreHp){
      super(restoreHp);  
-     restoreHp = 20;
+     ;
     }
-    
+    public HPpotion(){
+     this(20);   
+    }
 
 }

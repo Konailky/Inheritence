@@ -10,8 +10,9 @@ public class Gun extends Ranged
 {
     public Gun(int damage, int parrychance){
         super(damage, parrychance);
-        damage = 5; 
-        parrychance = 5;
+    }
+    public Gun(){
+     this(5,5);   
     }
     
   

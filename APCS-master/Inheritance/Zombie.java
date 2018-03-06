@@ -10,6 +10,9 @@ public class Zombie extends Enemy
     public Zombie ( int Edamage, int Ehp, int Edefense){
         super(Edamage, Ehp, Edefense);
     }
+    public Zombie(){
+        this(40, 400,40);
+    }
 
     public void defend(int damage){
         if (damage > Edefense){

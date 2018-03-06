@@ -20,11 +20,14 @@ public  class Player extends Characters
         this.pdamage = pdamage;
         this.pspeed = pspeed;
         this.pdef = pdef;
-        name = null;
-        hp = 300;
-        pdamage = 30;
-        pspeed = 30;
-        pdef = 30;
+        
+    }
+    public Player(){
+     this(null,1000,30,30,30);   
+    }
+    
+    public int getHp(){
+        return hp;
     }
 
     public void eat(Comsumables food){
@@ -40,7 +43,7 @@ public  class Player extends Characters
     
     public void equipDef(Armor y ){
         pdef += y.getDef();
-        System.out.println("You have put on the armor called " + y + " and increased your defenses to " + pdef + " points.");
+        System.out.println("You have armored yourself with the " + y + " and increased your defenses to " + pdef + " points.");
     }
     
     public void ride(Vehicle z){

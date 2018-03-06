@@ -10,6 +10,8 @@ public class Horse extends Vehicle
 {
    public Horse(int speed){
      super(speed);  
-     speed = 10;
+    }
+    public Horse(){
+     this(10);   
     }
 }

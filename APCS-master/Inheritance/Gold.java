@@ -9,8 +9,9 @@ public class Gold extends Armor
 {
     public Gold(boolean armor, int def){
         super(armor, def);
-        armor = true;
-        def = 200;
+    }
+    public Gold(){
+     this(true, 200);   
     }
     
     public void armor(int Edamage){

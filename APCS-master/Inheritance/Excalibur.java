@@ -14,6 +14,9 @@ public class Excalibur extends Melee
         damage = 1000;
         parrychance = 1000;
     }
+    public Excalibur(){
+     this(1000,1000);   
+    }
     
   
 

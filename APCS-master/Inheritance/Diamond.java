@@ -12,6 +12,9 @@ public class Diamond extends Armor
         armor = true;
         def = 500;
     }
+    public Diamond(){
+        this(true, 500);
+    }
     
     public void armor(int Edamage){
         if(Edamage == def){

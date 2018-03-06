@@ -10,8 +10,9 @@ public class Axe extends Melee
 {
     public Axe(int damage, int parrychance){
         super(damage, parrychance);
-        damage = 15;
-        parrychance = 15;
+    }
+    public Axe(){
+     this(15,15);   
     }
 
     

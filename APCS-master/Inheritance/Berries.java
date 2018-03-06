@@ -11,6 +11,9 @@ public class Berries extends Comsumables
        super(restoreHp);
        restoreHp = 5;
     }
+    public Berries(){
+        this(5);
+    }
     
  
 }

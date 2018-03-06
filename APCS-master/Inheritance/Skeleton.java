@@ -10,6 +10,9 @@ public class Skeleton extends Enemy
     public Skeleton ( int Edamage, int Ehp, int Edefense){
         super(Edamage, Ehp, Edefense);
     }
+    public Skeleton(){
+     this(20,300,20);   
+    }
 
     public void Eattack(int Edamage){
 

@@ -13,6 +13,9 @@ public class Chimera extends Enemy
         Ehp = 500;
         Edefense = 50;
     }
+    public Chimera(){
+     this(50,500,500);   
+    }
 
     public void defend(int damage){
     if (damage > Edefense){

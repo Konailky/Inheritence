@@ -10,6 +10,8 @@ public class Dragon extends Vehicle
 {
    public Dragon(int speed){
        super(speed);
-       speed = 50;
+    }
+    public Dragon(){
+     this(50);   
     }
 }

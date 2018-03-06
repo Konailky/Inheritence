@@ -11,6 +11,9 @@ public class Chicken extends Comsumables
         super(restoreHp);
         restoreHp = 10;
     }
+    public Chicken(){
+     this(10);   
+    }
     
  
 }

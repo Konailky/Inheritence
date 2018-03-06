@@ -9,8 +9,9 @@ public class Unarmed extends Melee
 {
     public Unarmed(int damage, int parrychance){
      super(damage, parrychance);
-     damage = 1;
-     parrychance = 2;
+    }
+    public Unarmed(){
+     this(1,2);   
     }
     
    

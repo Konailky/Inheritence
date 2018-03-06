@@ -11,8 +11,9 @@ public class Sword extends Melee
 
     public Sword(int damage, int parrychance){
         super(damage, parrychance); 
-        damage = 10;
-        parrychance = 10;
+    }
+    public Sword(){
+     this(10,10);   
     }
 
    

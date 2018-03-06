@@ -9,8 +9,9 @@ public class Slingshot extends Ranged
 {
    public Slingshot(int damage, int parrychance){
        super(damage, parrychance);
-       damage = 2;
-       parrychance = 2;
+    }
+    public Slingshot(){
+     this(2,2);   
     }
     
   

@@ -11,6 +11,9 @@ public class Bow extends Ranged
         super(damage, parrychance);
         
     }
+    public Bow(){
+     this(12,12);   
+    }
 
 
     

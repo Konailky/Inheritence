@@ -11,6 +11,9 @@ public class Steak extends Comsumables
         super(restoreHp);
         restoreHp = 25;
     }
+    public Steak(){
+     this(25);   
+    }
     
 
 }
